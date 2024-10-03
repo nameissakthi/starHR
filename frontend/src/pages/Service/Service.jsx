@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import './Service.css'
-import { CompanyContext } from '../../context/companycontext'
+import { CompanyContext } from '../../context/CompanyContext.jsx'
 import { Link } from 'react-router-dom'
 
 const Service = () => {

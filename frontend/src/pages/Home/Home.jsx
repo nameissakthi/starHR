@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import './Home.css'
-import { CompanyContext } from '../../context/companycontext'
+import { CompanyContext } from '../../context/CompanyContext.jsx'
 import assets from '../../assets/assets.js'
 
 const Home = () => {

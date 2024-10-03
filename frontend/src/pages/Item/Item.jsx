@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import './Item.css'
-import { CompanyContext } from '../../context/companycontext'
+import { CompanyContext } from '../../context/CompanyContext.jsx'
 import { useParams } from 'react-router-dom'
 import axios from 'axios'
 
