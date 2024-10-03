@@ -1,0 +1,22 @@
+.footer {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.footer .bottom{
+    text-align: center;
+    color: grey;
+}
+@media(max-width: 800px){
+    .footer .bottom{
+        p{
+            font-size: medium;
+        }
+    }
+}
+@media(max-width:500px){
+    .footer .bottom{
+        p{
+            font-size: small;
+        }
+    }
+}

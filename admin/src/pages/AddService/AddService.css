@@ -1,0 +1,30 @@
+.addservice{
+    width: 30%;
+    position: relative;
+    left: 50%;
+    translate: -50%;
+    h1{
+        margin-bottom: 20px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        *{
+            margin-bottom: 10px;
+        }
+        input, textarea, select{
+            padding: 5px;
+            resize: none;
+        }
+        button{
+            width: fit-content;
+            align-self: center;
+            padding: 10px 30px;
+            border: none;
+            background-color: rgb(63, 221, 63);
+            font-weight: 700;
+            font-size: large;
+            cursor: pointer;
+        }
+    }
+}

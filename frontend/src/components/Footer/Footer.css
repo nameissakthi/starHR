@@ -1,0 +1,151 @@
+.footer {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.footer .top{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .logo{
+        img{
+            height: 150px;
+            width: 150px;
+        }
+    }
+}
+.footer .top .social{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer .top .social div{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    a{
+        color: black;
+        text-decoration: none;
+        >*{
+            height: 1.5rem;
+            width: 1.5rem;
+        }
+    }
+}
+.footer .top .links h2{
+    margin-bottom: 10px;
+}
+.footer .top .links ul{
+    list-style: none;
+    li{
+        margin-bottom: 10px;
+        a{
+            color: black;
+            text-decoration: none;
+        }
+    }
+    li a:hover{
+        color: red;
+    }
+}
+.footer .bottom{
+    text-align: center;
+    color: grey;
+}
+@media(max-width: 800px){
+    .footer {
+        .top{
+            justify-content: space-between;
+            .logo{
+                img{
+                    height: 100px;
+                    width: 100px;
+                }
+            }
+            .social{
+                h2{
+                    font-size: large;
+                }
+            }
+            .links {
+                h2{
+                    font-size: large;
+                }
+                ul{
+                    li{
+                        margin-bottom: 10px;
+                        a{
+                            color: black;
+                            text-decoration: none;
+                        }
+                    }
+                    li a:hover{
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+    .footer .bottom{
+        p{
+            font-size: medium;
+        }
+    }
+}
+@media(max-width:500px){
+    .footer {
+        .top{
+            .logo{
+                img{
+                    height: 90px;
+                    width: 90px;
+                }
+            }
+            .social{
+                h2{
+                    font-size: small;
+                }
+                div {
+                    a{
+                        *{
+                            height: 20px;
+                            width: 20px;
+                        }
+                    }
+                }
+            }
+            .links {
+                position: relative;
+                left: 50%;
+                translate: -50%;
+                text-align: center;
+                width: 60%;
+                h2{
+                    font-size: medium;
+                }
+                ul{
+                    display: flex;
+                    justify-content: space-between;
+                    li{
+                        margin-bottom: 10px;
+                        a{
+                            font-size: small;
+                            color: black;
+                            text-decoration: none;
+                        }
+                    }
+                    li a:hover{
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+    .footer .bottom{
+        p{
+            font-size: small;
+        }
+    }
+}
